@@ -1,2 +1,3 @@
-# conference
-Responsive HTML5 Bootstrap 3 template for Event Site
+# PKU Bionet 2018 webpage
+
+View at https://rawgit.com/Yue-Jiang/pkubionet2018/master/index.html
