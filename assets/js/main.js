@@ -69,7 +69,7 @@ $('#registration-form').submit(function(e){
 smoothScroll.init();
 
 // set the date we're counting down to
-var target_date = new Date('June, 9, 2018').getTime();
+var target_date = new Date('2018-06-09T09:00:00-08:00').getTime();
 
 // variables for time units
 var days, hours, minutes, seconds;
@@ -95,7 +95,7 @@ setInterval(function () {
     seconds = parseInt(seconds_left % 60);
 
     // format countdown string + set tag value
-    countdown.innerHTML = '<span class="days">' + days + ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">'
-    + minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds till</b></span>';
+    countdown.innerHTML = '<span class="days">' + days + '</span>' + '<b>days</b><span class="hours">' + hours + '</span><b>hours</b><span class="minutes">'
+    + minutes + '</span><b>minutes</b><span class="seconds">' + seconds + '</span><b>seconds till</b>';
 
 }, 1000);

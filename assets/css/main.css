@@ -1,18 +1,19 @@
 /*
  * 1. Google Font
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 /*
  * 2.0 Global Style
  */
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #4e4e4e;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -339,7 +340,6 @@ ul li {
   color: #fff;
   position: relative;
   text-align: center;
-  text-transform: uppercase;
   width: 100%;
   z-index: 1;
   padding: 0 15px;
@@ -606,10 +606,7 @@ ul li {
 .container {
   margin: 0px auto;
   padding: 0px;
-}
-
-.content {
-  padding: 10px 44px;
+  font-size: 30px;
 }
 
 .counter {
@@ -633,10 +630,18 @@ ul li {
 }
 
 #countdown span {
-  color: #E5E5E5;
-  font-size: 26px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 80px;
+  font-style: italic;
   font-weight: normal;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: #ff5454;
+  margin-left: 3px;
+  margin-right: 3px;
   text-align: center;
+}
+
+#countdown b {
+  font-size: 10px;
+  font-weight: normal;
+  color: #e8e8e8;
 }
