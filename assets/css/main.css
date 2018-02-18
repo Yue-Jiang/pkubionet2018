@@ -2,7 +2,7 @@
  * 1. Google Font
  */
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 /*
  * 2.0 Global Style
  */
@@ -638,9 +638,9 @@ ul li {
 }
 
 #countdown span {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'VT323', monospace;
   font-size: 80px;
-  font-style: italic;
+  font-style: normal;
   font-weight: normal;
   color: #ff5454;
   margin-left: 3px;
