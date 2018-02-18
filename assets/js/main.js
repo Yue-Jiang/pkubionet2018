@@ -95,7 +95,13 @@ setInterval(function () {
     seconds = parseInt(seconds_left % 60);
 
     // format countdown string + set tag value
-    countdown.innerHTML = '<span class="days">' + days + '</span>' + '<b>days</b><span class="hours">' + hours + '</span><b>hr</b><span class="minutes">'
-    + minutes + '</span><b>min</b><span class="seconds">' + seconds + '</span><b>sec till</b>';
+		if (seconds_left > 0) {
+			countdown.innerHTML = '<span class="days">' + days + '</span>' + '<b>days</b> <span class="hours">' + hours + '</span><b>hr</b> <span class="minutes">'
+	    + minutes + '</span><b>min</b> <span class="seconds">' + seconds + '</span> <b>sec till</b>';
+		}
+		else if (days < 0){
+			countdown.innerHTML = '<p>This event has ended.</p><p>来日后会相予期 去去莫迟疑﻿</p>'
+		}
+
 
 }, 1000);

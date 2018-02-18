@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  color: #4e4e4e;
+  color: #e5fdff;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -98,6 +98,7 @@ ul li {
   padding: 8px 15px;
   font-size: 22px;
   font-weight: 700;
+  text-transform: uppercase;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -342,7 +343,7 @@ ul li {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .site-header .intro {
-  color: #fff;
+  color: #e5fdff;
   position: relative;
   text-align: center;
   width: 100%;
@@ -651,4 +652,10 @@ ul li {
   font-size: 16px;
   font-weight: normal;
   color: #aaaaaa;
+}
+
+#countdown p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ff5454;
 }
