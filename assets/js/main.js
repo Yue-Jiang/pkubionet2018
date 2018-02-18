@@ -105,3 +105,9 @@ setInterval(function () {
 
 
 }, 1000);
+
+//speaker click
+$(".speaker").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
