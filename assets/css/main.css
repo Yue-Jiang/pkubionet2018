@@ -39,7 +39,7 @@ h3 {
 }
 
 p {
-  margin: 0 0 30px;
+  margin: 10px 10px 10px 10px;
   font-size: 16px;
 }
 
@@ -141,13 +141,13 @@ ul li {
 }
 
 .section {
-  padding: 25px 50px 25px 100px;
+  padding: 15px 0px 15px 0px;
 }
 
 .section-title {
   color: #313131;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 10px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -248,13 +248,13 @@ ul li {
 
 @media (min-width: 768px) {
   .section {
-    padding: 50px 0;
+    padding: 25px 0px 25px 0px;
   }
 
   .section-title {
     color: #313131;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 10px 30px 10px 30px;
     text-transform: uppercase;
     text-align: left;
   }
@@ -379,12 +379,10 @@ ul li {
 /*
  * 6.0 Section
  */
+
 /*
  * 6.1 Section: About
  */
-.about p {
-  padding: 10px 30px 10px 50px;
-}
 .about figure {
   margin-bottom: 25px;
 }
@@ -565,8 +563,8 @@ ul li {
   }
 
   .section-title {
-    padding-left: 50px;
-    margin: 0 0 10px;
+    padding-left: 10px;
+    margin: 10px 0 10px;
   }
 
   figure {
@@ -586,13 +584,6 @@ ul li {
     width: 25%;
   }
 }
-
-/*
- * location
- */
- .location p {
-   padding: 10px 30px 10px 50px;
- }
 
 /*
  * 7.0 Site-footer
