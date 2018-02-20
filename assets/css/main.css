@@ -267,12 +267,12 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
 .navbar-custom .navbar-nav li {
-  margin: 0;
+  margin: 10px;
 }
 .navbar-custom .navbar-nav > li > a {
   color: #fff;
@@ -299,7 +299,7 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: #000 !important;
+  background-color: rgba(0, 0, 0, 1) !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -308,13 +308,14 @@ ul li {
 .site-branding {
   float: left;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 15px;
   padding: 0 0 10px 0
 }
 .site-branding .logo {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  margin-left: 15px;
   margin-right: 5px;
   letter-spacing: 1px;
 }
@@ -368,12 +369,12 @@ ul li {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding-top: 30px;
+    margin-top: 0px;
   }
 
   .site-branding {
-    margin-top: 6px;
-    margin-left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 }
 /*
