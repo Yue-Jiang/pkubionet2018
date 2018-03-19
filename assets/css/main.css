@@ -436,11 +436,11 @@ ul li {
 */
 .schedule-box {
   position: relative;
-  background-color: #000;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #3f3f3f;
   text-align: center;
-  padding: 50px 0;
-  margin: 25px 0 0;
+  padding: 10px 0 10px;
+  margin: 10px 0 0px;
 }
 .schedule-box::before {
   content: '';
@@ -449,7 +449,7 @@ ul li {
   right: 5px;
   bottom: 5px;
   left: 5px;
-  border: 1px solid #fff;
+  border: 1px solid #3f3f3f;
 }
 
 /*
@@ -460,7 +460,7 @@ ul li {
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.7;
+  opacity: 1;
   height: 150px;
   width: 150px;
   margin: 25px auto;
@@ -468,7 +468,7 @@ ul li {
   transition: 0.5s all linear;
 }
 .partner .partner-box:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
 .partner .partner-box-1 {
   background: url(../images/partner/partner-1.png) no-repeat center center/contain;
