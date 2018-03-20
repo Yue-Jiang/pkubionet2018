@@ -7,13 +7,13 @@
 * 2.0 Global Style
 */
 html {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, 'STHeiti', 'SimHei', 'Microsoft YaHei';
   font-size: 16px;
 }
 
 body {
   color: #000;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, 'STHeiti', 'SimHei', 'Microsoft YaHei';
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -36,6 +36,9 @@ h2 {
 }
 h3 {
   font-weight: 400;
+}
+h4 {
+  white-space:pre;
 }
 
 p {
@@ -436,11 +439,11 @@ ul li {
 */
 .schedule-box {
   position: relative;
-  background-color: #e5e5e5;
+  background-color: #f8f8f8;
   color: #3f3f3f;
   text-align: center;
   padding: 10px 0 10px;
-  margin: 10px 0 0px;
+  margin: 10px 0 0;
 }
 .schedule-box::before {
   content: '';
