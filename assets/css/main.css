@@ -505,6 +505,11 @@ ul li {
 .partner .partner-box-8 {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
+.partner .partner-box-9 {
+  background: url(../images/partner/partner-9.png) no-repeat center center/contain;
+  height: 200px;
+  width: 200px;
+}
 
 /*
 * 6.8 Section: FAQ
