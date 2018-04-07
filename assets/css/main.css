@@ -516,6 +516,11 @@ ul li {
   height: 200px;
   width: 200px;
 }
+.partner .partner-box-10 {
+  background: url(../images/partner/partner-10.png) no-repeat center center/contain;
+  height: 200px;
+  width: 200px;
+}
 
 /*
 * 6.8 Section: FAQ
