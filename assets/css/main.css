@@ -521,6 +521,11 @@ ul li {
   height: 200px;
   width: 200px;
 }
+.partner .partner-box-11 {
+  background: url(../images/partner/partner-11.png) no-repeat center center/contain;
+  height: 200px;
+  width: 200px;
+}
 
 /*
 * 6.8 Section: FAQ
@@ -600,12 +605,6 @@ ul li {
   }
 }
 @media (min-width: 992px) {
-  .schedule-box {
-    margin: 0;
-    background-color: #e5e5e5;
-    color: #3f3f3f;
-  }
-
   .grid-item-md-6 {
     width: 50%;
   }
