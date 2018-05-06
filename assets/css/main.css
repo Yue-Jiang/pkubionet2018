@@ -46,6 +46,12 @@ p {
   font-size: 16px;
 }
 
+p.small {
+  font-size: 14px;
+  font-style: italic;
+  color: #515151;
+}
+
 ul li {
   font-weight: 700;
   margin-bottom: 10px;
@@ -504,6 +510,16 @@ ul li {
 }
 .partner .partner-box-8 {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+}
+.partner .partner-box-9 {
+  background: url(../images/partner/partner-9.png) no-repeat center center/contain;
+  height: 200px;
+  width: 200px;
+}
+.partner .partner-box-10 {
+  background: url(../images/partner/partner-10.png) no-repeat center center/contain;
+  height: 200px;
+  width: 200px;
 }
 
 /*
