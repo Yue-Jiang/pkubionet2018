@@ -600,12 +600,6 @@ ul li {
   }
 }
 @media (min-width: 992px) {
-  .schedule-box {
-    margin: 0;
-    background-color: #e5e5e5;
-    color: #3f3f3f;
-  }
-
   .grid-item-md-6 {
     width: 50%;
   }
