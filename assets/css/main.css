@@ -447,7 +447,7 @@ ul li {
   position: relative;
   background-color: #f8f8f8;
   color: #3f3f3f;
-  text-align: center;
+  text-align: left;
   padding: 10px 0 10px;
   margin: 10px 0 0;
 }
@@ -458,7 +458,7 @@ ul li {
   right: 5px;
   bottom: 5px;
   left: 5px;
-  border: 1px solid #3f3f3f;
+  border: 0px solid #3f3f3f;
 }
 
 /*
