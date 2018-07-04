@@ -1,3 +1,7 @@
 # PKU Bionet 2018 webpage
 
-View at https://rawgit.com/Yue-Jiang/pkubionet2018/master/index.html
+This repo contains the website of PKU Bionet Symposium 2018, which happened in San Francisco on June 9th, 2018. The official site is http://pkubio.org/sf2018/.
+
+A preview of this repo can be viewed at https://rawgit.com/Yue-Jiang/pkubionet2018/master/index.html.
+
+生科不败，千秋万代～
